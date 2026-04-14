@@ -2,6 +2,7 @@ import Slider from 'react-slick';
 import { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
+import ChatPreview from './chat/ChatPreview';
 
 export default function Welcome() {
   const sliderRef = useRef<Slider | null>(null);
@@ -428,6 +429,9 @@ export default function Welcome() {
             </div>
           </div>
         </div>
+
+        {/* Chat Preview */}
+        <ChatPreview />
       </div>
     </div>
   );

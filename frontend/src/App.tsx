@@ -8,6 +8,7 @@ import Login from './components/Login';
 import { AuthProvider } from './context/AuthContext';
 import { ThemeProvider } from './context/ThemeContext';
 import AdminProducts from './components/admin/AdminProducts';
+import Chat from './components/chat/Chat';
 import { useTheme } from './context/ThemeContext';
 
 // Wrapper component to apply theme classes
@@ -26,6 +27,7 @@ function ThemedApp() {
             <Route path="/about" element={<About />} />
             <Route path="/products" element={<Products />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/chat" element={<Chat />} />
             <Route path="/admin/products" element={<AdminProducts />} />
           </Routes>
         </main>

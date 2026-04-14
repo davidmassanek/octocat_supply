@@ -1,0 +1,8 @@
+INSERT INTO chat_messages (sender_name, sender_email, content, created_at) VALUES
+('Whiskers McFluff', 'whiskers@catmail.meow', 'Just knocked the smart feeder off the counter to impress a cute tabby watching from the window. She was NOT impressed. The feeder survived though, 10/10 durability.', datetime('now', '-2 hours')),
+('Captain Mittens', 'captain@catmail.meow', 'Any single cats in this area? Asking for a friend. Totally unrelated: does the GPS collar track OTHER cats too? Asking for the same friend.', datetime('now', '-1 hour', '-45 minutes')),
+('Luna Pawsworth', 'luna@catmail.meow', 'The smart bed heated up right before my nap. Finally, something in my life that actually understands my needs. Unlike my last three relationships.', datetime('now', '-1 hour', '-20 minutes')),
+('Sir Pounce-a-Lot', 'pounce@catmail.meow', 'Looking for a cat who enjoys midnight adventures, knocking things off tables, and long walks on the fence. Must love treats. DM me. Wait, is this the right app?', datetime('now', '-55 minutes')),
+('Noodle', 'noodle@catmail.meow', 'Sat on the smart scale and it said I am purrfect. Finally, a machine that tells the truth. Where are all the hot cats in my area that the ads promised??', datetime('now', '-30 minutes')),
+('Duchess Fluffington', 'duchess@catmail.meow', 'The automated grooming brush made my fur absolutely magnificent. Getting a LOT of attention at the fence tonight. Too bad they are all strays with no smart collars. Standards, darlings.', datetime('now', '-15 minutes')),
+('Whiskers McFluff', 'whiskers@catmail.meow', 'Update: the cute tabby came back. I showed her my smart feeder and she stayed for dinner. This app works better than Tindpurr tbh.', datetime('now', '-5 minutes'));
